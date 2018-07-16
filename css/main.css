@@ -96,3 +96,18 @@
     line-height: 2;
     color: #888;
 }
+
+/* projects */
+.projects {
+    margin: 4em 0;
+    position: relative;
+}
+.projects h1 {
+    color: #F97300;
+    margin: 2em;
+}
+.projects img {
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}
