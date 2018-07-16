@@ -1,3 +1,4 @@
+/* navbar */
 .navbar {
     background: #F97300;
 }
@@ -87,6 +88,9 @@
 .about .desc{
     padding: 2em;
     border-left: 4px solid #10828C;
+}
+.about .desc h3{
+    color: #10828C;
 }
 .about .desc p{
     line-height: 2;
