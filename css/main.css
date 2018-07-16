@@ -34,7 +34,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 /*header style*/
 .header {
     background-image: url('../images/headerback.jpg');
-    background-attachment: fixed;
+    position: relative;
     background-size: cover;
     background-position: center;
 }
