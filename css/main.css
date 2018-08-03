@@ -33,7 +33,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 /*header style*/
 .header {
-    background-image: url('../images/berserk.jpg');
+    background-image: url('../images/knight.jpg');
     position: relative;
     background-size: cover;
     background-position: center;
