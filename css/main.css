@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,700italic,800);
 
 html,h1,h2,h3,h4,h5,h6,a {
     font-family: "Raleway";
@@ -100,6 +101,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 .about .desc p{
     line-height: 2;
     color: #888;
+    margin-bottom: 0px;
 }
 
 /* projects */
@@ -163,7 +165,35 @@ html,h1,h2,h3,h4,h5,h6,a {
     font-size: 16px;
 }
 
+/* footer */
 
+footer {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 48px;
+}
 
+footer p {
+    float: left;
+    margin-left: 20px;
+}
 
+footer #links {
+    float: right;
+    font-size: 30px;
+    margin-right: 20px;
+}
 
+footer #links a {
+    color: #000000;
+}
+
+footer #links i {
+    opacity: 0.3;
+}
+
+footer #links i:hover {
+    opacity: 1;
+}
