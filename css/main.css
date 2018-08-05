@@ -71,52 +71,6 @@ html,h1,h2,h3,h4,h5,h6,a {
     color: #fff;
 }
 
-/* About */
-.about {
-    margin: 4em 0;
-    padding: 1em;
-    position: relative;
-    
-    background-image: url('../images/knightBigSword.jpg');
-    position: relative;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-
-    transform: scale(.8);
-}
-
-.about .about-row {
-    padding-bottom: 20px;
-}
-.about h1{
-    color: #F97300;
-    margin: 2em;
-}
-.about img{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-}
-.about span{
-    display: block;
-    color: #888;
-    position: absolute;
-    left: 115px;
-}
-.about .desc{
-    padding: 2em;
-    border-left: 4px solid #10828C;
-}
-.about .desc h3{
-    color: #10828C;
-}
-.about .desc p{
-    line-height: 2;
-    color: #888;
-    margin-bottom: 0px;
-}
-
 /* projects */
 .projects {
     margin: 4em 0;
@@ -177,20 +131,71 @@ html,h1,h2,h3,h4,h5,h6,a {
     padding: 1em;
 }
 
+/* About */
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+    
+    background-image: url('../images/knightBigSword.jpg');
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    transform: scale(.8);
+}
+
+.about .about-row {
+    padding-bottom: 20px;
+}
+.about h1{
+    color: #F97300;
+    margin: 2em;
+}
+.about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+.about .desc{
+    padding: 2em;
+    border-left: 4px solid #10828C;
+}
+.about .desc h3{
+    color: #10828C;
+}
+.about .desc p{
+    line-height: 2;
+    color: #888;
+    margin-bottom: 0px;
+}
 
 /* contact form */
 .contact-form{
     margin: 6em 0;
     position: relative;
+
+    background-image: url('../images/knightPrincess.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 20% 50%;
 }
 .contact-form h1{
-    padding: 2em 1px;
+    padding: 2em 1px 5px; /*top left bottom right */
     color: #F97300;
 }
 .contact-form .right{
     max-width: 600px;
 }
-.contact-form .right .btn-secondary{
+/* .contact-form .right .btn-secondary{
     background: #F97300;
     color: #fff;
     border: 0;
@@ -198,6 +203,16 @@ html,h1,h2,h3,h4,h5,h6,a {
 .contact-form .right .form-control::placeholder{
     color: #888;
     font-size: 16px;
+} */
+
+.contact-form i {
+    opacity: 0.3;
+    font-size: 200px;
+    position: relative;
+}
+
+.contact-form i:hover {
+    opacity: 1;
 }
 
 /* footer */
