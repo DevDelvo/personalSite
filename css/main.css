@@ -6,7 +6,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 html,body {
-    background-color: #7395AE !important;
+    background-color: #B1A296 !important;
     margin: 0;
     height: 100%
 }
@@ -60,7 +60,7 @@ html,body {
 }
 
 .overlay:hover {
-    opacity: .2;
+    opacity: .1;
     transition: .5s ease;
 }
 
@@ -71,14 +71,26 @@ html,body {
     padding: 2em;
 }
 .description h1 {
-    color: rgb(224, 221, 236);
+    color: #B1A296;
 }
+
 .description p{
-    color: rgb(224, 221, 236);
+    color: #B1A296;
     font-size: 20px;
     width: 50%;
     line-height: 1.5;
 }
+
+.description h1:hover {
+    color: rgb(224, 221, 236);
+    text-shadow: .5px .5px black;
+}
+
+.description p:hover {
+    color: rgb(224, 221, 236);
+    text-shadow: .5px .5px black;
+}
+
 .description button {
     border: 1px solid #F97300;
     background: #F97300;
@@ -121,14 +133,15 @@ html,body {
     margin-top: 0;
     border-style: solid;
     border-color: #557A95;
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 .projects h1 {
     color: rgb(205, 206, 233);
     padding: 20px;
     margin: 1em;
-    font-size: 50px;
+    font-size: 75px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .projects img {
     padding: 5px;
@@ -141,6 +154,7 @@ html,body {
 .blog {
     margin: 4em 0;
     position: relative;
+    height: 600px;
 
     background-image: url('../images/dovahdain.jpg');
     position: relative;
@@ -159,11 +173,21 @@ html,body {
 }
 
 .blog h1{
-    color: #F97300;
-    margin: 2em;
+    color: #496897;
+    padding: 20px;
+    margin: 1em;
+    font-size: 75px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .blog .card {
+    transition: .5s ease;
     box-shadow: 0 0 20px #ccc;
+
+}
+
+.blog .card:hover {
+    transition: .5s ease;
+    transform: scale(1.1)
 }
 
 .blog .card-row {
@@ -175,7 +199,7 @@ html,body {
     height: 12em;
 }
 .blog .card-title {
-    color: #F97300;
+    color: rgb(5, 14, 22);
 }
 .blog .card-body {
     padding: 1em;
@@ -206,35 +230,46 @@ html,body {
     padding-bottom: 20px;
 }
 .about h1{
-    color: #F97300;
-    margin: 2em;
+    color: rgb(39, 29, 22);
+    margin: 1em;
+    font-size: 75px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .about img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
 }
+
 .about span{
     display: block;
-    color: #888;
+    color: rgb(17, 20, 49);
     position: absolute;
     left: 115px;
 }
+
 .about .desc{
     padding: 2em;
-    border-left: 4px solid #10828C;
+    border-left: 4px solid rgb(31, 34, 39);
 }
+
 .about .desc h3{
-    color: #10828C;
+    color: rgb(34, 35, 43);
 }
+
 .about .desc p{
     line-height: 2;
     color: #888;
     margin-bottom: 0px;
 }
 
-/* technologies */
+.about .desc p:hover{
+    transition: .3s ease;
+    color: #0f1331;
+    text-shadow: .5px .5px rgb(121, 104, 104);
+}
 
+/* technologies */
 .technologies {
     margin: 6em 0;
     position: relative;
@@ -245,7 +280,7 @@ html,body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-position: 40% 20%;
+    background-position: 40% 18%;
 
     transition: .5s ease;
     transform: scale(.8);
@@ -254,6 +289,13 @@ html,body {
 .technologies:hover {
     transition: .5s ease;
     transform: scale(.98);
+}
+
+.technologies h1 {
+    color: #5D5c61;
+    padding: 20px;
+    font-size: 75px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .technologies img {
@@ -273,7 +315,7 @@ html,body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-position: 20% 25%;
+    background-position: 10% 25%;
 
     transition: .5s ease;
     transform: scale(.8);
@@ -289,36 +331,34 @@ html,body {
     padding-bottom: 50px;
 }
 
-.contact h2{
-    padding: 2em 1px 5px; /*top left bottom right */
-    color: #F97300;
+.contact h1{
+    /* padding: 2em 1px 5px; top left bottom right */
+    padding: 20px;
+    color: rgb(17, 26, 44);
+    font-size: 75px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.contact h3 {
-    padding: 2em 1px 5px;
+.contact .links {
+    margin: auto;
+    background: #496897
 }
-.contact .right{
-    max-width: 600px;
-}
-/* .contact-form .right .btn-secondary{
-    background: #F97300;
-    color: #fff;
-    border: 0;
-}
-.contact-form .right .form-control::placeholder{
-    color: #888;
-    font-size: 16px;
-} */
 
 .contact i {
-    opacity: 0.3;
-    font-size: 50px;
-    padding-left: 20px;
+    opacity: 0.7;
+    font-size: 75px;
+    padding: 30px 30px 30px 30px;
     position: relative;
+    color: rgb(230, 237, 243);
+    margin: auto;
+    transition: .5s ease;
 }
 
 .contact i:hover {
+    transition: .5s ease;
+    color: #557A95;
     opacity: 1;
+    transform: scale(1.1);
 }
 
 /* footer */
