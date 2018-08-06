@@ -44,28 +44,26 @@
                 Hello, Welcome to my Website!
                 <p>
                 I'm a former artist turned full stack developer!
-                Here you'll find my projects, blog posts, short summary of myself and contact information.</p>
-                <button class="btn btn-outline-secondary btn-lg">See more</button>    
+                Here you'll find my projects, blog posts, short summary of myself and contact information.</p> 
             </h1>
         </div>
     </div>
-
 </header>
 
 <!-- projects -->
 <div class="projects" id="projects">
-    <h1 class="text-center">Projects</h1>
-    <div class="overlay"></div>
+    <h1 class="text-center"><strong>PROJECTS</strong></h1>
+    <!-- <div class="overlay"></div> -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-8 col-sm-12">
+            <div class="col-lg-4 col-md-8 col-sm-12 project-box">
                 <img src="images/splits-ease-logo.png" class="img-fluid">
                 <div class="project-body">
                     <a href="https://github.com/the-hateful-eight/splits-ease" target="_blank"><h4>Splits/Ease</h4></a>
                     <p>Receipt splitting mobile app made with React Native.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-8 col-sm-12">
+            <div class="col-lg-4 col-md-8 col-sm-12 project-box">
                 <img src="images/graceShopper.png" class="img-fluid">
                 <div class="project-body">
                     <a href="https://car-gurus.herokuapp.com" target="_blank"><h4>Car Gurus</h4></a>
@@ -83,7 +81,7 @@
 <div class="blog" id="blog">
     <div class="overlay"></div>
     <div class="container">
-        <h1 class="text-center">Blog</h1>
+        <h1 class="text-center">BLOG POSTS</h1>
         <div class="row card-row">
             <div class="col-md-4 col-lg-4 col-sm-12">
                 <div class="card">
@@ -125,7 +123,7 @@
 <div class="about" id="about">
     <div class="overlay"></div>
     <div class="container">
-        <h1 class="text-center">About Me</h1>
+        <h1 class="text-center">ABOUT ME</h1>
         <div class="row about-row">
             <!-- left side  -->
             <div class="col-lg-4 col-md-4 col-sm-12">
@@ -153,49 +151,40 @@
 <div class="technologies" id="technologies">
     <div class="overlay"></div>
     <div class="container">
-        <h1 class="text-center">Technologies I use</h1>
+        <h1 class="text-center">TECHNOLOGIES I use</h1>
+        <div class="flex-container tech-images">
+            <img src="images/technologies/JavaScript-logo.png" alt="JavaScript" class="img-fluid">
+            <img src="images/technologies/react.png" alt="React.js" class="img-fluid">
+            <img src="images/technologies/redux.png" alt="Redux.js" class="img-fluid">
+            <img src="images/technologies/nodeJS.png" alt="Node.js" class="img-fluid">
+            <img src="images/technologies/expressJS.png" alt="express.js" class="img-fluid">
+            <img src="images/technologies/postgresql.png" alt="PostgreSQL" class="img-fluid">
+            <img src="images/technologies/sequelize.png" alt="Sequelize" class="img-fluid">
+        </div>
     </div>
 </div>
 <!-- contact -->
-<div class="contact-form" id="contact">
+<div class="contact" id="contact">
     <div class="overlay"></div>
     <div class="container">
-        <!-- <form action="mailto:kevinbdelvo@gmail.com" method="post" enctype="text/plain">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h1>Get in Touch</h1>
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-12 right">
-                    <div class="form-group">
-                        <input type="text" class="form-control form-control-lg"
-                        placeholder="Your Name" name="name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control form-control-lg"
-                        placeholder="YourEmail@email.com" name="email">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control form-control-lg">
-
-                        </textarea>
-                    </div>
-                    <input type="Send" class="btn btn-secondary btn-block" value="Send">
-                </div>
-            </div>
-        </form> -->
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <h1>Get in Touch</h1>
+
             </div>
             <div class="col-lg-8 col-lg-8 col-sm-12 right">
-                <h1>Contact me through e-mail at kevinbdelvo@gmail.com</h1>
-                <a href="mailto:kevinbdelvo@gmail.com"><i class="fa fa-envelope"></i></a>
+                <h3>You can also find me at:
+                   <br> linkedin: <a href="https://www.linkedin.com/in/kevindelvo" target="_blank"><i class="fa fa-linkedin"></i></a>
+                   <br> github: <a href="https://github.com/DevDelvo/" target="_blank"><i class="fa fa-github"></i></a>
+                   <br> twitter: <a href="https://www.twitter.com/devdelvo" target="_blank"><i class="fa fa-twitter"></i></a>
+                   <br> email: <a href="mailto:kevinbdelvo@gmail.com"><i class="fa fa-envelope"></i></a>
+                </h3>
             </div>
         </div>
     </div>
 </div>
 
 <footer>
+    <div id="container">
     <p class='copy'>Kevin Delvo &copy; 2018</p>
         <div id="links">
             <a href="https://www.linkedin.com/in/kevindelvo" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -203,6 +192,7 @@
             <a href="https://www.twitter.com/devdelvo" target="_blank"><i class="fa fa-twitter"></i></a>
             <a href="mailto:kevinbdelvo@gmail.com"><i class="fa fa-envelope"></i></a>
         </div>
+    </div>
 </footer>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
